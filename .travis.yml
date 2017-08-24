@@ -1,0 +1,14 @@
+language: python
+sudo: false
+cache: pip
+python:
+  - "2.7"
+before_install:
+  - nvm install 6
+  - nvm use 6
+script:
+  - make test
+notifications:
+  email:
+    on_success: change
+    on_failure: always
