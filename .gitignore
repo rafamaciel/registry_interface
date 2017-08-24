@@ -1,0 +1,13 @@
+*.sw[a-z]
+*.pyc
+*.db
+.DS_Store
+.coverage
+.venv
+htmlcov
+local_settings.py
+tsuru_dashboard/apps/tests/example.tar.gz
+node_modules
+coverage
+build
+dist
